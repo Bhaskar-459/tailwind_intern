@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>title</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body class="m-2">
+        <h1 class="mt-12 mb-4 text-4xl font-bold">Create an account</h1>
+        <form class="h-screen" action="goals.html">
+            <div>
+                <input type="text" class="justify-stretch w-[90%] pl-5 h-10 mr-2 border-2 bg-slate-200 rounded mb-4" id="First Name" name="First Name" placeholder="First Name" />
+            </div>
+            <div>
+                <input type="text" class="justify-stretch w-[90%] pl-5 h-10 mr-2 border-2 bg-slate-200 rounded mb-4" id="Last Name" name="Last Name" placeholder="Last Name" />
+            </div>
+            <div>
+                <input type="email"  required class="justify-stretch w-[90%] pl-5 h-10 mr-2 border-2 bg-slate-200 rounded mb-4" id="email" name="email" placeholder="Email" />
+            </div>
+            <div>
+                <input type="password" required class="justify-stretch w-[90%] pl-5 h-10 mr-2 border-2 bg-slate-200 rounded" id="password" name="password" placeholder="Password" />
+            </div>
+            <input type="checkbox" required id="terms" name="terms" value="terms" class="border-[20px]"> By proceeding,I agree to all <a href="#" class="text-blue-400 underline">T&C</a> and <a href="#" class="text-blue-400 underline">Privacy Policy</a>
+            <div class="mt-32">
+                <button type="submit" class="w-[90%] h-10 mt-4 bg-blue-500 text-white rounded">Sign Up</button>
+            </div>
+            <div class="flex mt-3">
+                <div class="h-[2px] w-[45%] mt-2 bg-slate-600"></div>
+                <div><p class="px-2">or</p></div>
+                <div class="h-[2px] w-[45%] mt-2 bg-black"></div>
+            </div>
+
+            <div class="flex justify-center mt-3">
+               <img src="./pictures/google.png" alt="google" class="border-2 border-black w-16 h-16 p-2 mr-3 rounded-lg"> 
+               <img src="./pictures/facebook.png" alt="facebook" class="border-2 border-black w-16 h-16 p-2 ml-3 rounded-lg">
+            </div>
+            <div class="flex justify-center mt-3">
+                <p>Already have an account?</p>
+                <a href="login.html" class="text-blue-400 underline">Login</a>
+        </form>
+    </body>
+</html>
